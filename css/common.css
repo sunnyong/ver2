@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+/*web font*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
+
+/*common*/
+html,body{font-family: 'Noto Serif KR', serif; font-weight: 300; font-size: 15px; line-height: 1; color: #333; width: 100%; max-width: 640px; margin: 0 auto; text-align: center; letter-spacing: -0.02em; background: url("../images/bg_card.png") repeat-Y center top;}
+
+section{background: url("../images/bg_card.png") repeat-Y center top; background-size: cover; padding: 20px; padding-bottom: 50px;}
+.main_txt{margin: 50px 0; font-weight: 700; font-size: 30px; }
+.sub_txt{text-align: left; line-height: 1.7em; word-break:keep-all; }
+h2{font-size: 20px; padding: 50px 0 30px; text-align: left; border-top: 1px solid #ddd;}
+.num{font-family: 'Noto Sans KR', sans-serif; }
+
+#section1 h2{border: 0;}
+#section1 .main_txt{margin-top: 30px;}
+#section1 .main_txt span{display: block; font-size: 12px; margin-top: 20px; }
+#section1 .main_txt span.fixed{font-size: 14px; margin-top: 0; position: fixed; top: 0; left: 0; right: 0; margin: 0 auto; width: 100%; height: 30px; background: rgba(255,255,255,0.8); line-height: 30px;}
+
+
+#section2 .profile{overflow: hidden; display: flex; flex-wrap: wrap; align-items: center;}
+#section2 .profile + .profile{margin-top: 50px;}
+#section2 .profile_img{width:40%; float: left; border-radius: 50%; overflow: hidden; float: left; display: inline-block;}
+#section2 .profile_img img{display: block;}
+#section2 .profile_txt{width: 60%; float: right; text-align: left; display: inline-block; padding-left: 20px;}
+#section2 .profile_txt h3{font-size: 16px; font-weight: 700; margin-bottom: 10px;}
+#section2 .profile_txt p{line-height: 1.5em; word-break: keep-all;}
+#section2 .profile_txt p strong{display: inline-block; margin-top: 10px; font-weight: 300; font-size: 13px;}
+
+#section3{}
+#section3 iframe{width: 100%; height: 250px; margin-top: 15px;}
+#section3 .sub_txt{font-size: 14px; letter-spacing: -0.03em;}
+#section3 .sub_txt strong{font-size: 16px;}
+#section3 span{margin-right: 15px; font-size: 12px; font-weight: 600;}
+
+
+#section4 .center .slick-slide{transform: scale(0.9); transition: all .3s;}
+#section4 .center .slick-current{transform: scale(1);}
+#section4 .center .play_wrap{position: relative; }
+#section4 .center .btn_play{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50px;}
+
+#section5 .sub_txt{font-size: 13px;}
+#section5 .sub_txt span{font-size: 10px; display: block; margin-top: 50px;}
+
+
+
+.pop_play{display: none; width: 100%;}
+.btn_close{position: absolute; right: 10px; bottom: -50px;}
+
+
+
+
+
