@@ -15,7 +15,7 @@ h2{font-size: 20px; padding: 50px 0 30px; text-align: left; border-top: 1px soli
 #section1 h2{border: 0;}
 #section1 .main_txt{margin-top: 30px;}
 #section1 .main_txt span{display: block; font-size: 12px; margin-top: 20px; }
-#section1 .main_txt span.fixed{font-size: 14px; margin-top: 0; position: fixed; top: 0; left: 0; right: 0; margin: 0 auto; width: 100%; height: 30px; background: rgba(255,255,255,0.8); line-height: 30px;}
+#section1 .main_txt span.fixed{font-size: 14px; margin-top: 0; position: fixed; top: 0; left: 0; right: 0; margin: 0 auto; width: 100%; height: 30px; background: rgba(255,255,255,0.8); line-height: 30px; z-index: 9999;}
 
 
 #section2 .profile{overflow: hidden; display: flex; flex-wrap: wrap; align-items: center;}
@@ -40,7 +40,7 @@ h2{font-size: 20px; padding: 50px 0 30px; text-align: left; border-top: 1px soli
 #section4 .center .btn_play{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50px;}
 
 #section5 .sub_txt{font-size: 13px;}
-#section5 .sub_txt span{font-size: 10px; display: block; margin-top: 50px;}
+#section5 .sub_txt span{font-size: 10px; display: block; margin-top: 50px; line-height: 1.3em;}
 
 
 
